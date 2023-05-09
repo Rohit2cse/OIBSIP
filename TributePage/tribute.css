@@ -1,0 +1,282 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #050418;
+    min-height: 100vh;
+    border: 5px solid #06e3dc;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.top-section {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.top-section h1 {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: dashed;
+
+}
+
+.top-section h3 {
+    font-size: 20px;
+    text-align: end;
+    color: white;
+    text-decoration: dashed;
+
+}
+
+.about-shane {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.about-shane h1 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.about-shane p {
+    color: white;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 1.2px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 30px;
+    text-align: justify;
+}
+
+.image-container {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.image-container,
+img {
+    width: 320px;
+    height: 340px;
+    box-shadow: 2px 4px 10px rgba(111, 111, 111, 5.2);
+}
+
+.img1-container,
+img {
+    width: 320px;
+    height: 340px;
+    border-radius: 50%;
+    box-shadow: 3px 5px 12px rgba(121, 121, 121, 5.2);
+}
+
+.img2-container,
+img {
+    width: 320px;
+    height: 340px;
+    border-radius: 50%;
+    box-shadow: 3px 5px 12px rgba(121, 121, 121, 5.2);
+    margin-right: 30px;
+}
+
+.about-shane1 p {
+    color: white;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 1.2px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.about-shane1 h1 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.about-shane1 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.img3-container,
+img {
+    width: 320px;
+    height: 340px;
+    border-radius: 50%;
+    box-shadow: 3px 5px 12px rgba(121, 121, 121, 5.2);
+    margin-right: 30px;
+}
+
+.about-shane2 p {
+    color: white;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 1.2px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 30px;
+    text-align: justify;
+}
+
+.about-shane2 h1 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.about-shane2 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.img4-container,
+img {
+    width: 320px;
+    height: 340px;
+    border-radius: 50%;
+    box-shadow: 3px 5px 12px rgba(121, 121, 121, 5.2);
+    margin-right: 30px;
+}
+
+.about-shane3 p {
+    color: white;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 1.2px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.about-shane3 h1 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.about-shane3 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.img5-container,
+img {
+    width: 320px;
+    height: 340px;
+    border-radius: 50%;
+    box-shadow: 3px 5px 12px rgba(121, 121, 121, 5.2);
+    margin-right: 30px;
+}
+
+.about-shane4 p {
+    color: white;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 1.2px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 30px;
+    text-align: justify;
+}
+
+.about-shane4 h1 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.about-shane4 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.img6-container,
+img {
+    width: 320px;
+    height: 340px;
+    border-radius: 50%;
+    box-shadow: 3px 5px 12px rgba(121, 121, 121, 5.2);
+    margin-right: 30px;
+}
+
+.about-shane5 p {
+    color: white;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 1.2px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.about-shane5 h1 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.about-shane5 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+b {
+    color: bisque;
+}
+
+a {
+    color: aquamarine;
+}
+
+footer {
+    text-align: end;
+    color: bisque;
+    margin-bottom: 15px;
+}
+
+.final {
+    color: aquamarine;
+    text-align: center;
+    margin-top: 5px;
+
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 10px;
+    border: 5px solid transparent;
+}
